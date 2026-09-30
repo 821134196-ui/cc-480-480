@@ -1,0 +1,15 @@
+{
+  "name": "fire-door-inspection",
+  "version": "1.0.0",
+  "description": "物业防火门闭门器巡检与复位系统",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/start.js",
+    "test": "node --test --experimental-sqlite"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "license": "MIT"
+}

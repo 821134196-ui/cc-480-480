@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>防火门闭门器巡检与复位系统</title>
+<link rel="stylesheet" href="/styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23a83228'/%3E%3Cpath d='M11 6h8l3 4v16H11z' fill='none' stroke='%23f8f6f2' stroke-width='2'/%3E%3C/svg%3E">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#/overview">
+    <span class="brand-mark" aria-hidden="true">
+      <svg width="22" height="22" viewBox="0 0 24 24"><path d="M7 3h8l3 4v14H7z" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="15" cy="13" r="1.4" fill="currentColor"/></svg>
+    </span>
+    <span class="brand-text">防火门闭门器巡检与复位系统<small>Fire Door Inspection &amp; Reset</small></span>
+  </a>
+  <nav class="mainnav" id="mainnav"></nav>
+  <div class="actorbox">
+    <label for="actorSelect" class="actor-label">当前操作人</label>
+    <select id="actorSelect" class="actor-select"></select>
+    <span id="actorMeta" class="actor-meta"></span>
+  </div>
+</header>
+<div id="banner-slot"></div>
+<main id="view" class="view"></main>
+<footer class="footer">
+  设备数据为演示内容 · SQLite 本地存储 · 电磁释放信号由模拟适配器返回 · 门体照片存于 data/photos
+</footer>
+<div id="toast" class="toast" hidden></div>
+<script type="module" src="/app.js"></script>
+</body>
+</html>
