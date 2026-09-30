@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>防火门闭门器巡检与复位系统</title>
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark"></span>
+    <div>
+      <h1>防火门闭门器巡检与复位系统</h1>
+      <span class="brand-sub">物业消防设施 · 巡检 / 维修 / 复位闭环</span>
+    </div>
+  </div>
+  <div class="top-actions">
+    <span id="notify-dot" class="notify-dot" title="调度提醒"></span>
+    <label class="user-pick">当前操作人
+      <select id="user-select"></select>
+    </label>
+    <span id="role-badge" class="role-badge"></span>
+  </div>
+</header>
+<div class="layout">
+  <nav class="sidenav" id="sidenav"></nav>
+  <main class="content" id="content"></main>
+</div>
+<div id="toast-host"></div>
+<div id="modal-host"></div>
+<script src="/static/app.js"></script>
+</body>
+</html>

@@ -13,3 +13,12 @@ build/
 轨迹/
 录屏/
 视频/
+
+# 运行时数据（SQLite 库、演示照片）
+/data/*.db
+/data/*.db-wal
+/data/*.db-shm
+/data/photos/*
+!/data/photos/.gitkeep
+__pycache__/
+*.pyc
